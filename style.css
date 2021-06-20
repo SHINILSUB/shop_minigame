@@ -29,18 +29,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 .logo {
   cursor: pointer;
   transition: transform var(--animation-duration) ease;
-
-}
-.buttons {
-  display: flex;
-  align-items: center;
-  
-
 }
 .btn {
   background-color: transparent;
@@ -49,11 +41,15 @@ body {
   cursor: pointer;
   transition: transform var(--animation-duration) ease;
   margin-right: var(--base-space);
-  }
+}
 
 .logo:hover,
 .btn:hover {
   transform: scale(1.1);
+}
+.buttons {
+  display: flex;
+  align-items: center;  
 }
 .imgBtn {
   width: var(--size-button);
@@ -63,7 +59,6 @@ body {
   font-size: var(--font-size);
   padding: calc(var(--base-space) * 2);
   border-radius: var(--size-border);
-  padding: calc(var(--base-space) * 2);
 }
 .blue {
   background-color: var(--color-blue); 
@@ -90,7 +85,6 @@ body {
   align-items: center;
   padding: var(--base-space);
   margin-bottom: var(--base-space);
-
 }
 .item__thumnail {
   width: var(--size-thumbnail);
